@@ -1,5 +1,6 @@
 <template>
-  <h1 class="container">Hello!</h1>
+  <div class="container">
+  </div>
 </template>
 
 <script lang="ts">
@@ -9,7 +10,5 @@ export default defineComponent({})
 </script>
 
 <style lang="scss" scoped>
-.container {
-  color: blueviolet;
-}
+.container {}
 </style>
