@@ -1,11 +1,17 @@
-# atomic-design
+# Learning atomic-design
+Simple project with Vue to learning the architecture Atomic Design architecture.
 
-## Project setup
+![](public/2021-07-11-10-30-43.png)
+
+## Setup 🔥
+After clone the repository
+
+### Install dependencies
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles and hot-reloads
 ```
 npm run serve
 ```
@@ -20,5 +26,4 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+💡 See [Cataline Bootcamp](https://station.cataline.io/bootcamp) 
