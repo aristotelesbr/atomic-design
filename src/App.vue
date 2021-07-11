@@ -1,15 +1,20 @@
 <template>
-  <h1 class="container">Hello!</h1>
+  <div class="container">
+    <Logo />
+  </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import { Logo } from './components/atoms'
 
-export default defineComponent({})
+export default defineComponent({
+  components: { Logo }
+})
 </script>
 
 <style lang="scss" scoped>
 .container {
-  color: blueviolet;
+  width: 300px;
 }
 </style>
