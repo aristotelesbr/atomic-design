@@ -26,6 +26,9 @@ export default defineComponent({})
     &::placeholder {
       color: #a9b0be;
     }
+    &:focus-visible {
+      outline: none;
+    }
   }
   button {
     position: absolute;

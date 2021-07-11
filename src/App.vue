@@ -1,24 +1,20 @@
 <template>
   <div class="container">
-    <Service
-      title="Aristoteles"
-      description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis alias totam debitis quia eveniet sapiente perspiciatis quibusdam quod, accusantium neque adipisci asperiores. Accusamus quo et aut adipisci minima nemo iusto."
-    />
+    <Header />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { Service } from './components/molecules'
+import { Header } from './components/organisms'
 
 export default defineComponent({
-  components: { Service }
+  components: { Header }
 })
 </script>
 
 <style lang="scss" scoped>
 .container {
-  margin: 2rem;
-  width: 300px;
+  margin: 5rem;
 }
 </style>
